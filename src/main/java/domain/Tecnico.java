@@ -8,4 +8,5 @@ import javax.persistence.Entity;
 @Data
 public class Tecnico extends Profissional{
 
+
 }
