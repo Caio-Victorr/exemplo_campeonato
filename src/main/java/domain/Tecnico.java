@@ -2,13 +2,14 @@ package domain;
 
 import lombok.Data;
 
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
 @Data
 @DiscriminatorValue("T")
+@NamedQueries({
+        @NamedQuery(name = "tecnico.findAll", query = "select t from Tecnico t")
+})
 public class Tecnico extends Profissional{
 
     @OneToOne

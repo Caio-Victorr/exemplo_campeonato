@@ -7,6 +7,7 @@ import javax.persistence.*;
 @Entity
 @Data
 @Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn
 public abstract class Profissional {
 
     @Id
