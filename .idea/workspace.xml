@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399885c3-c44b-4477-9147-590c3c2e4448" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Profissional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PessoaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Campeonato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistance/JpaPersistence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Profissional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Profissional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tecnico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -93,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677193300905</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="testando commit">
+      <created>1677193937262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677193937262</updated>
+    </task>
+    <task id="LOCAL-00007" summary="aula-23/02">
+      <created>1677194029086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677194029086</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -110,6 +133,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
     <MESSAGE value="iniciando" />
-    <option name="LAST_COMMIT_MESSAGE" value="iniciando" />
+    <MESSAGE value="testando commit" />
+    <MESSAGE value="aula-23/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula-23/02" />
   </component>
 </project>
